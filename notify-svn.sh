@@ -21,5 +21,5 @@ MSG=`svn log $REPO -r $THERE 2>/dev/null | tail -n +4 | tr '\n' '  ' | sed 's/\-
 # terminal-notifier -title '💰' -message 'Check your Apple stock!' -open 'http://finance.yahoo.com/q?s=AAPL'
 if [ $THERE -gt $HERE ] ; then
     echo $MSG
-	$NOTIFIER -title "svn: $2" -subtitle "$BLAME: local@$HERE -> remote@$THERE" -message "Note: $MSG"
+	$NOTIFIER -title "svn: $2" -subtitle "$BLAME: local@$HERE -> remote@$THERE" -message "Log: $MSG"
 fi
