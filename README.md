@@ -1,4 +1,10 @@
-Based partly on https://github.com/amitsnyderman/svn-growl
+# SVN Notification Center
+
+Based partly on [https://github.com/amitsnyderman/svn-growl](amitsnyderman/svn-growl). Creates notifications like the following:
+
+![Notification](https://raw.githubusercontent.com/rtxanson/svn-notification-center/images/images/notification_popup.png)
+
+![Notification Center](https://raw.githubusercontent.com/rtxanson/svn-notification-center/images/images/notification_center.png)
 
 # Usage
 
